@@ -8,6 +8,7 @@
     "prism-react-renderer": "^0.1.6"
   },
   "scripts": {
-    "start": "mdx-deck deck/index.mdx"
+    "start": "mdx-deck deck/index.mdx",
+    "build": "mdx-deck build deck/index.mdx"
   }
 }
