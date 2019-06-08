@@ -36,7 +36,7 @@ const Code = ({ children, className: [languageClassName] }) => {
   );
 };
 
-const Provider = ({ title, speaker, twitter, children }) => (
+const Provider = ({ title, speaker, twitter, date, children }) => (
   <React.Fragment>
     <nav
       css={{
@@ -60,7 +60,7 @@ const Provider = ({ title, speaker, twitter, children }) => (
       </span>
       <span css={{ padding: "0 .25em" }}>—</span>
       <span css={{ color: "#aaa" }}>{title}</span>
-      <span css={{ marginLeft: "auto", color: "#aaa" }}>June 7, 2019</span>
+      <span css={{ marginLeft: "auto", color: "#aaa" }}>{date}</span>
     </nav>
     <main>{children}</main>
   </React.Fragment>
@@ -110,7 +110,12 @@ const custom = {
    * Semantically should not write meta data here
    */
   Provider: ({ children }) => (
-    <Provider speaker={meta.speaker} title={meta.title} twitter={meta.twitter}>
+    <Provider
+      speaker={meta.speaker}
+      title={meta.title}
+      twitter={meta.twitter}
+      date={meta.date}
+    >
       {children}
     </Provider>
   )
