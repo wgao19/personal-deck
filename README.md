@@ -1,3 +1,7 @@
 # 🐧 Personal Deck
 
-Clean style MDX presentation deck with Raleway and Zilla Slab, black and white, Night Owl code block theme.
+Clean style MDX presentation deck: 
+
+- Raleway and Zilla Slab
+- Black and white
+- Night Owl code block theme
