@@ -1,7 +1,7 @@
 # 🐧 Personal Deck
 
-Clean style MDX presentation deck: 
+Clean style MDX presentation deck:
 
-- Raleway and Zilla Slab
+- Old style typography using Baskerville
 - Black and white
 - Night Owl code block theme
