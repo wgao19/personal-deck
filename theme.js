@@ -28,8 +28,9 @@ const Code = ({ children, className: [languageClassName] }) => {
             css={{
               padding: "1rem",
               borderRadius: "4px",
-              fontSize: "2.5vh",
+              fontSize: "3vh",
               width: "65ch",
+              maxWidth: "95%",
               overflow: "auto",
               alignSelf: "center"
             }}
@@ -79,15 +80,13 @@ const Provider = ({
     >
       <span css={{ fontStyle: "italic" }}>{speaker}</span>&nbsp;👩🏻‍🌾
       <span css={{ padding: "0 .25em", color: "#aaa" }}>—</span>
-      <span css={{ color: "#aaa" }}>{title}</span>
+      <span css={{ fontStyle: "italic", color: "#aaa" }}>{title}</span>
       <a
         href={eventLink}
         target="_blank"
         css={{
           marginLeft: "auto",
           color: "#aaa",
-          fontStyle: "italic",
-          fontSize: ".75em",
           textDecoration: "none"
         }}
       >{`${event} — ${date}`}</a>
