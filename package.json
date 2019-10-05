@@ -4,8 +4,8 @@
   "main": "",
   "license": "MIT",
   "dependencies": {
-    "mdx-deck": "^2.3.2",
-    "prism-react-renderer": "^0.1.6"
+    "mdx-deck": "^3.0.0",
+    "prism-react-renderer": "^1.0.0"
   },
   "scripts": {
     "start": "mdx-deck deck/index.mdx",
