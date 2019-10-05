@@ -1,5 +1,7 @@
-export { default as theme } from '../theme';
-import { Notes } from 'mdx-deck'
+import { Notes } from 'mdx-deck';
+import custom from '../theme';
+
+export const theme = custom;
 
 # Title
 
@@ -56,7 +58,7 @@ export const Highlight = ({ children, color }) => (
       backgroundColor: color,
       borderRadius: '2px',
       color: '#fff',
-      padding: '0.2rem',
+      padding: '0.2rem'
     }}
   >
     {children}
